@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inversiones Danielito's App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="#" class="brand-logo">
+                    <i class="fas fa-store-alt"></i>
+                    <span>Danielitos</span>
+                </a>
+            </header>
+            <nav class="dashboard-nav-list">
+                <a href="index.html" class="dashboard-nav-item">
+                    <i class="fas fa-home"></i>Inicio
+                </a>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-hand-holding-usd"></i> Áreas de Ventas
+                    </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Registrar Venta</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Buscar Producto</a>
+                    </div>
+                </div>
+                <a href="#" class="dashboard-nav-item ">
+                    <i class="fas fa-tachometer-alt"></i> Item 1
+                </a>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-file-upload"></i> Item 2
+                </a>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-users"></i> Scroll Menu 2
+                    </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 1</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 2</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 3</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 4</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 5</a>
+                    </div>
+                </div>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-money-check-alt"></i> Scroll Menu 3
+                    </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 1</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 2</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Sub Item 3</a>
+                    </div>
+                </div>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-cogs"></i> Item 3
+                </a>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-user"></i> Item 4
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar'>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='card-header'>
+                            <h2>Usuario: Edinson Perales</h2>
+                        </div>
+                    </div>
+                    <div class="salesForm mt-2">
+                        <table class="table table-bordered">
+                            <thead class="headSalesForm">
+                                <tr class="bg-dark">
+                                    <th scope="col">Código</th>
+                                    <th scope="col">Descripción</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th scope="col">Precio unitario</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1123</th>
+                                    <td>Polo Niño</td>
+                                    <td>1</td>
+                                    <td>50</td>
+                                    <td>50</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
